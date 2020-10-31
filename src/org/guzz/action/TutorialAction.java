@@ -7,12 +7,24 @@ public class TutorialAction {
 	private String bestSite;
 	private String language;
 
-	public String execute() {
+	public String getTutor() {
 		
 		TutorialFinderService tutorialFinderService = new TutorialFinderService();
 		System.out.println(getLanguage());
 		setBestSite(tutorialFinderService.getBestTutorialSite(getLanguage()));
 		
+		System.out.println("getTutor method called");
+		return "success";
+
+	}
+	
+public String addTutor() {
+		
+		TutorialFinderService tutorialFinderService = new TutorialFinderService();
+		System.out.println(getLanguage());
+		setBestSite(tutorialFinderService.getBestTutorialSite(getLanguage()));
+	
+		System.out.println("addTutor method called");
 		return "success";
 	}
 

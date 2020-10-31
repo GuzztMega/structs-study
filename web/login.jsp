@@ -12,7 +12,7 @@
 	<body>
 	
 		<c:form action="login">
-			<c:textfield label="Login ID: " key="userId"/>
+			<c:textfield label="Login ID" key="userId"/>
 			<c:password label="Password" key="password" />
 			<c:submit />
 		</c:form>
