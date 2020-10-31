@@ -6,7 +6,7 @@
 <html>
 	<head>
 		<meta charset="ISO-8859-1">
-		<title>Search Form</title>
+		<title>Search Configuration</title>
 	</head>
 	
 	<body>

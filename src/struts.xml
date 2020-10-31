@@ -5,11 +5,11 @@
 <struts>
 
 	<include file="login.xml" />
-	<include file="tutorial" />
+	<include file="tutorial.xml" />
 	
 	<package name="search" namespace="/" extends="struts-default">
-		<action name="searchForm">
-			<result>/searchForm.jsp</result>
+		<action name="search*">
+			<result>/search{1}.jsp</result>
 		</action>	
 	</package>
 	
